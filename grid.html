@@ -1,0 +1,58 @@
+<html !DOCTYPE=HTML>
+<head>
+<title>Responsive with Flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@media (min-width:600px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width:599px) {
+    body {
+        background-color: blue;
+    }
+}
+
+#grid {
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+
+    background-color: white;
+    font-size=24px;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div id="grid">
+    <div class="grid-item"> 1. This is sample box number 1 to check how flexbox works.</div>
+    <div  class="grid-item"> 2. This is sample box number 1 to check how flexbox works.</div>
+    <div  class="grid-item"> 3. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 4. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 5. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 6. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 7. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 8. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 9. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 10. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 11. This is sample box number 1 to check how flexbox works.</div>
+    <div class="grid-item"> 12. This is sample box number 1 to check how flexbox works.</div>
+</div>
+
+</body>
+</html>
+
+
